@@ -3,8 +3,8 @@ import Button from '../Button';
 import HeroImage from "../../svg/Vote.js";
 const Hero = () => {
     return (
-    <section className="pt-20 md:pt-40">
-        <div className="container mx-auto px-8 lg:flex">
+    <section className = "hero-main">
+        <div className="container mx-auto px-8 lg:flex md:pt-40">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
               Main title of your landing page
