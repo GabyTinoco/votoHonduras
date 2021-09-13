@@ -1,4 +1,10 @@
 module.exports = {
+  siteMetadata: {
+    title: `Voto Honduras`,
+    description: ``,
+    author: `gaby tinoco`,
+    image: "/src/img/vote_honduras.png"
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
@@ -9,6 +15,13 @@ module.exports = {
       options: {
         tailwindConfig: `tailwind.config.js`
       }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/assets/images`,
+        name: 'images',
+      },
     }
   ]
 };
