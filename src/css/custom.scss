@@ -161,12 +161,27 @@ header {
   }
 }
 
+.text-primary {
+  color: $primaryColor !important;
+}
+.text-primary:hover {
+  color: #fff !important;
+}
+
 /*Botones*/
 .bg-primary-vh {
   --bg-opacity: 1;
     background-color: hsl(176, 72%, 39%);
     background-color: rgba(28, 170, 160, var(--bg-opacity));
 }
+
+.bg-primary-departamentos:hover {
+  --bg-opacity: 1;
+  background-color: hsl(176, 72%, 39%);
+  background-color: rgba(28, 170, 160, var(--bg-opacity));
+  color: #fff !important;
+  cursor: pointer;
+} 
 
 .bg-primary-vh-darker {
   --bg-opacity: 1;

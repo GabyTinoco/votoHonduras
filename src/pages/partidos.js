@@ -5,7 +5,6 @@ import Hero from "../components/partidos/Hero";
 import Historia from "../components/partidos/Historia";
 import Proyectos from "../components/partidos/ProyectosLey";
 import HeroPapeleta from '../components/partidos/HeroPapeleta';
-import Departamentos from "../components/partidos/Departamentos";
 
 import Carousel from 'react-multi-carousel';
 import { StaticQuery, graphql } from "gatsby"
@@ -57,7 +56,6 @@ export default function Partidos() {
                 <Historia/>
                 <Proyectos/>
                 <HeroPapeleta/>
-                <Departamentos/>
                 <section id="team" class="py-24 text-center">
                     <div class="text-center">
                         <h2 class="mb-12 section-heading wow fadeInDown animated" data-wow-delay="0.3s">Diputados</h2>
@@ -98,3 +96,5 @@ export default function Partidos() {
       />
     )
   }
+
+ 
