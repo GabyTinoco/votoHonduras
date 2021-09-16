@@ -9,7 +9,7 @@ import "../../css/custom.scss";
 const Header = ({ siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  
+
   let navClasses = 'nav-links';
   let navItemClasses = 'nav-link-item';
   let burgerClass = "burger";
@@ -23,32 +23,33 @@ const Header = ({ siteTitle }) => {
   }
 
   return (
-    <header className="sticky top-0 bg-white shadow">
+    <header>
       <Backdrop activeClass={backdropClass} click={toggle} />
-        <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-2 px-8">
-          <div className="flex items-center text-2xl">
-            <StaticImage
-                src = "../../img/voto_honduras.png"
-                width = {150}
-                alt= "Voto Honduras"
-            />
+      <nav className="navbar">
+        <div className="nav-belt">
+          <div>
+            <h4>
+              <Link className="logo" to="/" >
+                <div className="logo-image"></div>     
+              </Link>
+            </h4>
           </div>
-          <div className="flex mt-4 sm:mt-0">
-            <ul className={navClasses}>
-              <Link className="px-4" to="/">Inicio</Link>
-              <Link className="px-4" to = "/">Partidos</Link>
-              <Link className= "px-4" to = "/">Mapa</Link>
-              <Link className= "px-4" to = "/">Noticias</Link>
-              <Link className= "px-4" to = "/">Encuestas</Link>
-              <Link className= "px-4" to = "/">Proyecciones</Link>
-            </ul>
-            <div className={burgerClass} onClick={toggle}>
-              <div className="burger-line-1"></div>
-              <div className="burger-line-2"></div>
-              <div className="burger-line-3"></div>
-            </div>
+
+          <ul className={navClasses}>
+            <Link activeClass="active"to="/">Inicio</Link>
+            <Link activeClass="active"to="partidos">Partidos</Link>
+            <Link activeClass="active"to="mapa">Mapa</Link>
+            <Link activeClass="active"to="encuestas">Encuestas</Link>
+            <Link activeClass="active"to="proyecciones">Proyecciones</Link>
+            <Link activeClass="active"to="noticias">Noticias</Link>
+          </ul>
+          <div className={burgerClass} onClick={toggle}>
+            <div className="burger-line-1"></div>
+            <div className="burger-line-2"></div>
+            <div className="burger-line-3"></div>
           </div>
         </div>
+      </nav>
     </header>
   )
 };
