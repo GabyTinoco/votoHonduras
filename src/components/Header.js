@@ -4,19 +4,6 @@ import React, { useState } from 'react';
 import Backdrop from './BackdropSection';
 import MenuDropDown from "../components/menu/Menu";
 
-/** 
- * 
- *   <ul className={navClasses}>
-            <li className={navItemClasses}><a href="#">Inicio</a></li>
-            <li className={navItemClasses}><a href="#">Partidos</a></li>
-            <li className={navItemClasses}><a href="#">Mapa</a></li>
-            <li className={navItemClasses}><a href="#">Noticias</a></li>
-            <li className={navItemClasses}><a href="#">Encuentas</a></li>
-            <li className={navItemClasses}><a href="#">Proyecciones</a></li>
-          </ul>
- * 
-*/
-
 const Header = ({ siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
