@@ -9,6 +9,7 @@ import "../../css/custom.scss";
 const Header = ({ siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  const [isShownHoverContent, setIsShownHoverContent] = useState(false);
 
   let navClasses = 'nav-links';
   let navItemClasses = 'nav-link-item';
@@ -19,7 +20,6 @@ const Header = ({ siteTitle }) => {
     navItemClasses = 'nav-link-item-active';
     burgerClass = "burger toggle";
     backdropClass = "backdrop backdrop-active";
-
   }
 
   return (
@@ -30,16 +30,34 @@ const Header = ({ siteTitle }) => {
           <div>
             <h4>
               <Link className="logo" to="/" >
-                <div className="logo-image"></div>     
+                  <StaticImage
+                      src = "../../assets/voto_honduras.png"
+                      width = {150}
+                      alt= "Voto Honduras"
+                  />
               </Link>
             </h4>
           </div>
-
           <ul className={navClasses}>
             <Link activeClass="active"to="/">Inicio</Link>
-            <Link activeClass="active"to="partidos">Partidos</Link>
+            <Link activeClass="active"to="partidos" 
+              onMouseEnter = { () => setIsShownHoverContent(true)}
+             >
+                Partidos
+            </Link>
+              {isShownHoverContent && (
+                 <ul onMouseLeave = { () => setIsShownHoverContent(false)}>
+                  <Link activeClass="active"to="nacional">Partido Nacional</Link>
+                  <Link activeClass="active"to="liberal">Partido Liberal</Link>
+                  <Link activeClass="active"to="libre">Partido Libre</Link>
+                  <Link activeClass="active"to="psh">Partido PSH</Link>
+                  <Link activeClass="active"to="vamos">Partido Vámos</Link>
+                  <Link activeClass="active"to="independiente">Partido Independientes</Link>
+                 </ul>
+              )}
+             
             <Link activeClass="active"to="mapa">Mapa</Link>
-            <Link activeClass="active"to="encuestas">Encuestas</Link>
+            <Link activeClass="active"to="https://www.honduencuestas.com/" target = "_blank" >Encuestas</Link>
             <Link activeClass="active"to="proyecciones">Proyecciones</Link>
             <Link activeClass="active"to="noticias">Noticias</Link>
           </ul>

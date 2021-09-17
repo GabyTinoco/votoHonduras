@@ -19,13 +19,17 @@ class HeroPapeleta extends Component {
 
     presidente () {
         this.setState({
-            presidente: !this.state.presidente
+            presidente: !this.state.presidente,
+            alcaldes: this.state.alcaldes,
+            diputados: this.state.diputados
         })
     }
 
     diputados () {
        this.setState({
-           diputados: !this.state.diputados
+           diputados: !this.state.diputados,
+           presidente: this.state.presidente,
+           alcaldes: this.state.alcaldes
        })
     }
 
@@ -37,7 +41,9 @@ class HeroPapeleta extends Component {
 
     alcaldes () {
         this.setState({
-            alcaldes: !this.state.alcaldes
+            alcaldes: !this.state.alcaldes,
+            diputados: this.state.diputados,
+            presidente: this.state.presidente,
         })
     }
 
@@ -72,22 +78,22 @@ class HeroPapeleta extends Component {
                 </div>
             </div>
             {
-            this.state.presidente?
+            !this.state.presidente?
                 <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
                     <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
                     
                 </section>
             : null
             }
-              {
-                this.state.alcaldes?
+            {
+                !this.state.alcaldes?
                     <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
                         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none"> Candidatos a alcaldes</h1>
                     </section>
                  : null
             }    
             {
-                this.state.diputados?
+                !this.state.diputados?
                     <section className="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
                         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none"> Canditados a Diputados</h1>
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 pt-10 md:pt-12">

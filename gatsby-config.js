@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Voto Honduras`,
     description: ``,
-    author: `gaby tinoco`,
+    author: `Gaby Tinococo`,
     image: "/src/img/vote_honduras.png"
   },
   plugins: [

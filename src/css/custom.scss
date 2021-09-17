@@ -112,3 +112,30 @@ footer {
   background-color:$secondaryColor;
   opacity: 0.6;
 }
+
+/* menu desplegable */
+.navbar ul ul {
+  display: inline-grid;
+  position: absolute;
+  top: 63%;
+  left: 55%;
+  background: #fff;
+  padding: 0;
+}
+ 
+ /* items del menu desplegable */
+ 
+ .navbar ul ul li {
+  float:none;
+  width:150px
+ }
+ 
+ /* enlaces de los items del menu desplegable */
+ 
+ .navbar ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+  margin: 0 !important;
+  border: 1px solid;
+ }
+ 
