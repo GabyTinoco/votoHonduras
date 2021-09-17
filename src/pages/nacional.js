@@ -5,7 +5,7 @@ import Hero from "../components/partidos/nacional/Hero";
 import Historia from "../components/partidos/nacional/Historia";
 import General from '../components/partidos/nacional/General';
 import Proyectos from "../components/partidos/ProyectosLey";
-import HeroPapeleta from '../components/partidos/HeroPapeleta';
+import HeroPapeleta from '../components/partidos/nacional/Papeleta';
 
 import Carousel from 'react-multi-carousel';
 import { StaticQuery, graphql } from "gatsby"
