@@ -15,13 +15,13 @@ const Presidente = () => {
           <div class="flex flex-col md:flex-row items-center content-center py-12 lg:pt-16">
             <div class="feature-1 md:w-1/2 text-center mb-4 lg:mb-0 relative">
               <StaticImage
-                  src = "../../../assets/partidos/nacional/presidente.jpeg"
+                  src = "../../../assets/partidos/liberal/presidente_yani.jpg"
                   width = {500}
-                  alt= "Voto Honduras Partido Nacional"
+                  alt= "Voto Honduras Partido Liberal Presidente"
                 />     
             </div>
             <div class="w-full md:w-1/2 ">
-              <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">Nasry Asfura</h2>
+              <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">Yani Rosenthal</h2>
               <div class="text-md lg:text-lg pt-4 pb-8 text-gray-700">
                 <h3><Lugar/>Biografía</h3>
                 <ul>

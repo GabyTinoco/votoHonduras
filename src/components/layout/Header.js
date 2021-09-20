@@ -40,26 +40,26 @@ const Header = ({ siteTitle }) => {
           </div>
           <ul className={navClasses}>
             <Link activeClass="active"to="/">Inicio</Link>
-            <Link activeClass="active"to="partidos" 
+            <Link activeClass="active"to="/partidos" 
               onMouseEnter = { () => setIsShownHoverContent(true)}
              >
                 Partidos
             </Link>
               {isShownHoverContent && (
                  <ul onMouseLeave = { () => setIsShownHoverContent(false)}>
-                  <Link activeClass="active"to="nacional">Partido Nacional</Link>
-                  <Link activeClass="active"to="liberal">Partido Liberal</Link>
-                  <Link activeClass="active"to="libre">Partido Libre</Link>
-                  <Link activeClass="active"to="psh">Partido PSH</Link>
-                  <Link activeClass="active"to="vamos">Partido Vámos</Link>
-                  <Link activeClass="active"to="independiente">Partido Independientes</Link>
+                  <Link activeClass="active"to="/nacional">Partido Nacional</Link>
+                  <Link activeClass="active"to="/liberal">Partido Liberal</Link>
+                  <Link activeClass="active"to="/libre">Partido Libre</Link>
+                  <Link activeClass="active"to="/psh">Partido PSH</Link>
+                  <Link activeClass="active"to="/vamos">Partido Vámos</Link>
+                  <Link activeClass="active"to="/independiente">Partido Independientes</Link>
                  </ul>
               )}
              
-            <Link activeClass="active"to="mapa">Mapa</Link>
+            <Link activeClass="active"to="/mapa">Mapa</Link>
             <Link activeClass="active"to="https://www.honduencuestas.com/" target = "_blank" >Encuestas</Link>
-            <Link activeClass="active"to="proyecciones">Proyecciones</Link>
-            <Link activeClass="active"to="noticias">Noticias</Link>
+            <Link activeClass="active"to="/proyecciones">Proyecciones</Link>
+            <Link activeClass="active"to="/noticias">Noticias</Link>
           </ul>
           <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>
