@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from "react";
 
 import Layout from '../components/layout/Layout';
 import Hero from "../components/partidos/nacional/Hero";
 import Historia from "../components/partidos/nacional/Historia";
 import General from '../components/partidos/nacional/General';
 import Proyectos from "../components/partidos/ProyectosLey";
-import HeroPapeleta from '../components/partidos/nacional/Papeleta';
+import Papeleta from "../components/partidos/nacional/Papeleta";
 
 import Carousel from 'react-multi-carousel';
 import { StaticQuery, graphql } from "gatsby"
@@ -13,25 +13,25 @@ import Img from "gatsby-image"
 import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5,
-      slidesToSlide: 3 // optional, default to 1.
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 3,
-      slidesToSlide: 2 // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1 // optional, default to 1.
-    }
-  };
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5,
+    slidesToSlide: 3 // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+    slidesToSlide: 2 // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1 // optional, default to 1.
+  }
+};
 
+function Partidos() {
 
-export default function Partidos() {
     return (
       <StaticQuery
         query={graphql`
@@ -57,8 +57,10 @@ export default function Partidos() {
                 <Historia/>
                 <General/>
                 <Proyectos/>
-                <HeroPapeleta/>
-                <section id="team" class="py-24 text-center">
+                <Papeleta/>
+                
+              
+              <section id="team" class="py-24 text-center">
                     <div class="text-center">
                         <h2 class="mb-12 section-heading wow fadeInDown animated" data-wow-delay="0.3s">Diputados</h2>
                     </div>
@@ -93,10 +95,9 @@ export default function Partidos() {
                         </Carousel>   
                 </section>
             </Layout>
-
         )}
       />
     )
   }
 
- 
+ export default Partidos;

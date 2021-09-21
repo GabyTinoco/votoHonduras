@@ -43,9 +43,9 @@ const Header = ({ siteTitle }) => {
             <Link activeClass="active"to="/partidos" 
               onMouseEnter = { () => setIsShownHoverContent(true)}
              >
-                Partidos
-            </Link>
-              {isShownHoverContent && (
+               Partidos
+            </Link> 
+             {isShownHoverContent && (
                  <ul onMouseLeave = { () => setIsShownHoverContent(false)}>
                   <Link activeClass="active"to="/nacional">Partido Nacional</Link>
                   <Link activeClass="active"to="/liberal">Partido Liberal</Link>
@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => {
                   <Link activeClass="active"to="/independiente">Partido Independientes</Link>
                  </ul>
               )}
-             
+            
             <Link activeClass="active"to="/mapa">Mapa</Link>
             <Link activeClass="active"to="https://www.honduencuestas.com/" target = "_blank" >Encuestas</Link>
             <Link activeClass="active"to="/proyecciones">Proyecciones</Link>
