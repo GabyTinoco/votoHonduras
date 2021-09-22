@@ -89,11 +89,8 @@ class Papeleta extends Component {
             }
             {
                 !this.state.alcaldes?
-                    <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
-                        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none"> Candidatos a alcaldes</h1>
-                        <Alcaldes/>
-                    </section>
-                 : null
+                <Alcaldes/>     
+                : null
             }    
             {
                 !this.state.diputados?

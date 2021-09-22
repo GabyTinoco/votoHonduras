@@ -35,7 +35,7 @@ export default function Partidos() {
       <StaticQuery
         query={graphql`
         query {
-          vacationPhotos: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "diputados_liberal"}}, sort: {fields: base, order: ASC}) {
+          vacationPhotos: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "assets/partidos/nacional/diputados/atlantida"}}, sort: {fields: base, order: ASC}) {
             edges {
               node {
                 id
