@@ -1,10 +1,30 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5,
+      slidesToSlide: 3 // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3,
+      slidesToSlide: 2 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  };
 const Atlantida = () => {
   return (
         <section id="team" class="py-24 text-center">
             <div class="text-center">
-                <h2 class="mb-12 section-heading wow fadeInDown animated" data-wow-delay="0.3s"> Alcaldes de Cortés</h2>
+                <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold"> Alcaldes de Atlántida</h2>
             </div>
             <Carousel
                 swipeable={false}
@@ -20,67 +40,74 @@ const Atlantida = () => {
                 transitionDuration={500}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                itemClass="carousel-item-padding-40-px"
+                itemClass="carousel-item-padding-40-px p-4"
             >
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Amelia_Maritza_Carcamo_Puerto.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Carlos Eduardo Cortez Gonzáles ESPARTA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p> Amelia Maritza Carcamo Puerto</p>
+                    <p>Carlos Eduardo Cortez Gonzáles <em>ESPARTA</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_David_Sanin_Manaiza_Ramírez.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Gerardo Antonio Quijada Romero LA MASICA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p> David Sanin Manaiza Ramírez</p>
+                    <p>Gerardo Antonio Quijada Romero <em>LA MASICA</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Guadalupe_Trinidad_Tabora_Montoya.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Mario José Meléndez Matute EL PORVENIR.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p> Guadalupe Trinidad Tabora Montoya</p>
+                    <p>Mario José Meléndez Matute <em>EL PORVENIR</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Iveth_Obdulia_Matute_Betancourth.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Martha Patricia Montes Gamez SAN FRANCISCO.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Iveth Obdulia Matute Betancourth</p>
+                    <p>Martha Patricia Montes Gamez<em> SAN FRANCISCO</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Maria_Jose_Maresma_Peralta.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Mauricio Caliz Ceballos CEIBA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p> María José Maresma Peralta</p>
+                    <p>Mauricio Caliz Ceballos <em>CEIBA</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Onasis_Keusen_Garcia.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Ricardo Calix Ruiz TELA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Onasis Keusen Garcia</p>
+                    <p>Ricardo Calix Ruiz <em>TELA</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Osman_Alexander_Martinez_Canales.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Santos Miguel Nataren Meléndez JUTIAPA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Osman Alexander Martínez Canales</p>
+                    <p>Santos Miguel Nataren Meléndez <em>JUTIAPA</em></p>
+                </div> 
+                <div>
+                    <StaticImage
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Wilfredo Elias Castellanos Madrid ARIZONA.jpg"
+                        width = {500}
+                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                    />
+                    <p>Wilfredo Elias Castellanos Madrid <em>ARIZONA</em></p>
                 </div> 
             </Carousel>   
         </section>
-
   )
 }
 

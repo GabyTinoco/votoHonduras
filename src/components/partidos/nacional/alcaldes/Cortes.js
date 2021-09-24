@@ -26,7 +26,7 @@ const Cortes = () => {
   return (
         <section id="team" class="py-24 text-center">
             <div class="text-center">
-                <h2 class="xl:text-6xl" data-wow-delay="0.3s"> Alcaldes de Cortés</h2>
+                <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold"> Alcaldes de Cortés</h2>
             </div>
             <Carousel
                 swipeable={false}

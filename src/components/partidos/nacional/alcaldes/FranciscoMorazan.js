@@ -26,7 +26,7 @@ const FranciscoMorazan = () => {
   return (
         <section id="team" class="py-24 text-center">
             <div class="text-center">
-                <h2 class="mb-12 section-heading wow fadeInDown animated" data-wow-delay="0.3s"> Alcaldes de Francisco Morazán</h2>
+                <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold"> Alcaldes de Francisco Morazán</h2>
             </div>
             <Carousel
                 swipeable={false}
@@ -110,7 +110,7 @@ const FranciscoMorazan = () => {
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/fm/FM_Enayuda_Pamela_Zavala_Herrera_ORICA"
+                        src = "../../../../assets/partidos/nacional/alcaldes/fm/FM_Enayuda_Pamela_Zavala_Herrera_ORICA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />

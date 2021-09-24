@@ -14,9 +14,8 @@ const General = () => {
                 />
             </div>
             <div class="w-full md:w-1/2 ">
-              <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">Now go deeper into what your product offers. But, word it as benefits, not as features.</h2>
               <p class="text-md lg:text-lg pt-4 pb-8 text-gray-700">
-                “Save your favorites links” is a feature. “Never lose your favorite websites again” is a benefit. Users don’t care about your product, they only care about what’s in it for them.
+              El Partido Nacional se caracteriza por ser abiertamente conservador con bastante apoyo a la iglesia, este mismo afirma tener fundamento en el humanismo cristiano. Históricamente ha tenido una postura más conservadora en lo social y anticomunista que otros partidos desde su fundación.
               </p>
               <ul class="usps">
                 <li class="text-gray-900 py-1">
