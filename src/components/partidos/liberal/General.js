@@ -14,9 +14,12 @@ const General = () => {
                 />
             </div>
             <div class="w-full md:w-1/2 ">
-              <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">Now go deeper into what your product offers. But, word it as benefits, not as features.</h2>
               <p class="text-md lg:text-lg pt-4 pb-8 text-gray-700">
-                “Save your favorites links” is a feature. “Never lose your favorite websites again” is a benefit. Users don’t care about your product, they only care about what’s in it for them.
+              El partido liberal se caracterizado por guiarse por el socioliberalismo, ha promovido el desarrollo económico y el papel del estado en las regulaciones, 
+              y por lo general ha tenido una postura de derechas más moderada que su contraparte nacional, siendo de mayoría de sus integrantes posicionados en la centroderecha, 
+              aun muchos sin abandonar sus posturas anticomunistas y el apoyo al libre mercado, no obstante ha tenido facciones más variopintas que otros partidos 
+              siendo muchos de sus miembros de posturas socialdemócratas, tras el golpe de estado de 2009 
+              promovido por el ala más conservador del partido inicia el éxodo de integrantes liberales más orientados a la izquierda al partido LIBRE.
               </p>
               <ul class="usps">
                 <li class="text-gray-900 py-1">

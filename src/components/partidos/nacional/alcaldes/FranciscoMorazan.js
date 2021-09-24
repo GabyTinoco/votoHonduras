@@ -226,7 +226,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Marlin Luis Barahona López <em>NUEVA ARMENIA.jpgj</em></p>
+                    <p>FM Marlin Luis Barahona López <em>NUEVA ARMENIA</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -250,7 +250,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Roosevelt Eduardo Áviles Santos <em>TALANGA.jpg</em></p>
+                    <p>FM Roosevelt Eduardo Áviles Santos <em>TALANGA</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -258,7 +258,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Wilfredo Ponce Ponce <em>  VALE DE ANGELES.jpg</em></p>
+                    <p>FM Wilfredo Ponce Ponce <em>  VALE DE ANGELES</em></p>
                 </div> 
               
                 <div>

@@ -41,10 +41,7 @@ const Presidente = () => {
                 
               </div>
             
-            </div>
-
-
-          
+            </div>      
           </div>
         
         </div>

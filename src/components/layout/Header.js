@@ -57,7 +57,7 @@ const Header = ({ siteTitle }) => {
               )}
             
             <Link activeClass="active"to="/mapa">Mapa</Link>
-            <Link activeClass="active"to="https://www.honduencuestas.com/" target = "_blank" >Encuestas</Link>
+            <Link activeClass="active"to="/encuestas" target = "_blank" >Encuestas</Link>
             <Link activeClass="active"to="/proyecciones">Proyecciones</Link>
             <Link activeClass="active"to="/noticias">Noticias</Link>
           </ul>
