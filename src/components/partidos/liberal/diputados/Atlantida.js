@@ -52,52 +52,60 @@ const Atlantida = () => {
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/diputados/at/AT_David_Sanin_Manaiza_Ramírez.jpg"
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Emiliani Antonio Ponce Castillo.jpeg"
                         width = {500}
                         alt= "Voto Honduras Diputados Partido Liberal Atlantida"
                     />
-                    <p> David Sanin Manaiza Ramírez</p>
+                    <p>Emiliani Antonio Ponce Castillo</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/diputados/at/AT_Guadalupe_Trinidad_Tabora_Montoya.jpg"
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Habivi Eunice Alonso Aleman.jpeg"
                         width = {500}
                         alt= "Voto Honduras Diputados Partido Liberal Atlantida"
                     />
-                    <p> Guadalupe Trinidad Tabora Montoya</p>
+                    <p>Habivi Eunice Alonso Aleman</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/diputados/at/AT_Iveth_Obdulia_Matute_Betancourth.jpg"
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Jade Cristal Rubi Rodas.jpeg"
                         width = {500}
                         alt= "Voto Honduras Diputados Partido Liberal Atlantida"
                     />
-                    <p>Iveth Obdulia Matute Betancourth</p>
+                    <p>Jade Cristal Rubi Rodas</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/diputados/at/AT_Maria_Jose_Maresma_Peralta.jpg"
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Jose Martin Cardona Canales.jpeg"
                         width = {500}
                         alt= "Voto Honduras Diputados Partido Liberal Atlantida"
                     />
-                    <p> María José Maresma Peralta</p>
+                    <p> Jose Martin Cardona Canales</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/diputados/at/AT_Onasis_Keusen_Garcia.jpg"
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Luis Enriques Fuentes Morales.jpeg"
                         width = {500}
                         alt= "Voto Honduras Diputados Partido Liberal Atlantida"
                     />
-                    <p>Onasis Keusen Garcia</p>
+                    <p>Luis Enriques Fuentes Morales</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/diputados/at/AT_Osman_Alexander_Martinez_Canales.jpg"
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Mario Emilio Becerra Lopez.jpeg"
                         width = {500}
                         alt= "Voto Honduras Diputados Partido Liberal Atlantida"
                     />
-                    <p>Osman Alexander Martínez Canales</p>
-                </div> 
+                    <p>Mario Emilio Becerra Lopez</p>
+                </div>
+                <div>
+                    <StaticImage
+                        src = "../../../../assets/partidos/liberal/diputados/at/AT Nancy Viviana Zapata Moncada.jpeg"
+                        width = {500}
+                        alt= "Voto Honduras Diputados Partido Liberal Atlantida"
+                    />
+                    <p>Nancy Viviana Zapata Moncada</p>
+                </div>  
             </Carousel>   
         </section>
 
