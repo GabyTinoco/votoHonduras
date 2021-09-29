@@ -168,7 +168,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>SANTA ANA DE YUSGUARE Ruben Antonio Najar Aguilera.jpg</p>
+                    <p>Ruben Antonio Najar Aguilera <em>SANTA ANA DE YUSGUARE </em></p>
                 </div>         
             </Carousel>   
         </section>

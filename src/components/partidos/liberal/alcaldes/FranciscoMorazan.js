@@ -78,7 +78,7 @@ const FranciscoMorazan = () => {
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/fm/FM_Andres_Abelina_Servellon_Lagos_LEPATERIQUE.jpg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/fm/LEPATERIQUE_ HENRY GEOVANY MEJIA CHEVEZ.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Francisco Morazán"
                     />
@@ -254,7 +254,7 @@ const FranciscoMorazan = () => {
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/fm/VALLE DE ANGELES_ JESUS JAVIER CABRERA REYES.jpegg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/fm/VALLE DE ANGELES_ JESUS JAVIER CABRERA REYES.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Francisco Morazán"
                     />

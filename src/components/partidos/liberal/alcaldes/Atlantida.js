@@ -52,7 +52,7 @@ const Atlantida = () => {
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/at/SERGIO MEDINA VILLALTA.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/at/EL PORVENIR_ SERGIO MEDINA VILLALTA.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
@@ -60,7 +60,7 @@ const Atlantida = () => {
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/at/ESPARTA_ EDGARDO RAMIREZ ROMERO.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/at/ESPARTA_EDGARDO RAMIREZ ROMERO.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />

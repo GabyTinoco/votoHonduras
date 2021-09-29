@@ -95,7 +95,7 @@ class Alcaldes extends Component {
                         </h3>
                     </div>
                 </div>
-                <div class="shadow px-4 py-4 bg-primary-departamentos group rounded">
+                <div class="shadow px-4 py-4 bg-primary-departamentos group rounded" onClick = { () => this.alcaldesCH()}>
                     <div class="text-center w-24 xl:w-28 h-24 xl:h-28 mx-auto">
                         <div class="block group-hover:hidden">
                             <Choluteca/>

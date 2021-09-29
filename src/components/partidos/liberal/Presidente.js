@@ -25,18 +25,18 @@ const Presidente = () => {
               <div class="text-md lg:text-lg pt-4 pb-8 text-gray-700">
                 <h3><Lugar/>Biografía</h3>
                 <ul>
-                  <li>Nació en Tegucigalpa, M.D.C. del departamento de Francisco Morazán, el 8 de junio de 1958. </li>
+                  <li>Nació en San Pedro Sula del departamento de Cortés, 14 de julio de 1965 </li>
                 </ul>
                 <h3><Educacion/>Educación</h3>
                 <ul>
-                  <li>Graduado de Bachillerato en el Instituto San Francisco</li>
-                  <li>Estudios de Ingeniería Civil no concluidos en la UNAH</li>
-
+                  <li>Graduado en la escuela bilingüe Escuela Internacional Sampedrana en San Pedro Sula</li>
+                  <li>Se graduó de abogado de la Universidad Nacional Autónoma de Honduras </li>
+                  <li>Realizó su máster en Administración de Empresas en INCAE</li>
+                  <li>En 1998 la Suprema Corte de Justicia le da el título de notario público.</li>
                 </ul>
                 <h3><Trabajo/>Trabajo</h3>
                 <ul>
-                  <li>Político y empresario</li>
-                  
+                  <li>En 1998 la Suprema Corte de Justicia le da el título de notario público.</li>
                 </ul>
                 
               </div>

@@ -29,8 +29,7 @@ const Split = () => {
         <div className="lg:pl-32 xl:pl-48">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Encuestas</h1>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+             Tu desición cuenta, participa y conoce los resultados
           </p>
         </div>
       }
@@ -41,8 +40,7 @@ const Split = () => {
         <div className="lg:pr-32 xl:pr-48">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Proyecciones</h1>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            Conoce en tiempo real los resultados de las elecciones generales 2021
           </p>
         </div>
       }
