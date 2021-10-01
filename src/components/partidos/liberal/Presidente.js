@@ -15,7 +15,7 @@ const Presidente = () => {
           <div class="flex flex-col md:flex-row items-center content-center py-12 lg:pt-16">
             <div class="feature-1 md:w-1/2 text-center mb-4 lg:mb-0 relative">
               <StaticImage
-                  src = "../../../assets/partidos/liberal/presidente_yani.jpg"
+                  src = "../../../assets/partidos/liberal/presidente_yani.png"
                   width = {500}
                   alt= "Voto Honduras Partido Liberal Presidente"
                 />     

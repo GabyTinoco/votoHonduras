@@ -45,197 +45,188 @@ const FranciscoMorazan = () => {
             >
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM ARACELY FLORES BUESO.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Allan Macoto.webp"
                         width = {500}
-                        alt= "Voto Honduras diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>ARACELY FLORES BUESO</p>
+                    <p>Allan Macoto</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM CLAUDIA BERONICA MONCADA GODOY.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Cesia Ortiz.webp"
                         width = {500}
-                        alt= "Voto Honduras diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>CLAUDIA BERONICA MONCADA GODOY</p>
+                    <p>Cesia Ortiz</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM DANIEL ENRIQUE ESPONDA VELASQUEZ.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Cynthia Landa.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>DANIEL ENRIQUE ESPONDA VELASQUEZ</p>
+                    <p>Cynthia Landa</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM DELIA BEATRIZ VALLE MARICHAL.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Daniel Flores.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>DELIA BEATRIZ VALLE MARICHAL</p>
+                    <p>Daniel Flores</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM DENNIS RIGOBERTO CHIRINOS SANTOS.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Dr Matheu.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>DENNIS RIGOBERTO CHIRINOS SANTOS</p>
+                    <p>Dr Matheu</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM DIEGO JAVIER SANCHEZ CUEVA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Francisco Flores.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>DIEGO JAVIER SANCHEZ CUEVA</p>
+                    <p>Francisco Flores</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM FAUSTO MANUEL CALIX MARQUEZ.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Francisco Moran.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>FAUSTO MANUEL CALIX MARQUEZ</p>
+                    <p>Francisco Morán</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM GABRIEL ZACARIAS BONILLA CARDENAS.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Guadalupe Coello.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>GABRIEL ZACARIAS BONILLA CARDENAS</p>
+                    <p>Guadalupe Coello</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM GILBERTO RIOS MUNGUIA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Gustavo Blanco.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>GILBERTO RIOS MUNGUIA</p>
+                    <p>Gustavo Blanco</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM HUGO ROLANDO NOE PINO.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Iroska Elvir.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>HUGO ROLANDO NOE PINO</p>
+                    <p>Iroska Elvir</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM JARI DIXON HERRERA HERNÁNDEZ.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Isis Romero.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>JARI DIXON HERRERA HERNÁNDEZ</p>
+                    <p>Isis Romero</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM JORGE LUIS CALIX ESPINAL.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Jenny Pineda.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>JORGE LUIS CALIX ESPINAL</p>
+                    <p>Jenny Pineda</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM JORGE LUIS CALIX ESPINAL.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Ligia Ramos.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>JORGE LUIS CALIX ESPINAL</p>
+                    <p>Ligia Ramos</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM JUAN ALBERTO BARAHONA MEJIA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Madeilene Pedraza.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>JUAN ALBERTO BARAHONA MEJIA</p>
+                    <p>Madeilene Pedraza</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM LUIS ALONSO SOSA SALGADO.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Moises Ulloa.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>LUIS ALONSO SOSA SALGADO</p>
+                    <p>Moises Ulloa</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM MARCO ELIUD GIRON PORTILLO.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Molli Rubi.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>MARCO ELIUD GIRON PORTILLO</p>
+                    <p>Molli Rubi</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM MARIO ORLANDO SUAZO LARA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Pablo Josue Lagos.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>MARIO ORLANDO SUAZO LARA</p>
+                    <p>Pablo Josue Lagos</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM MIGUEL ANTONIO BRICEÑO AGURCIA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Roberto Paiz.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>MIGUEL ANTONIO BRICEÑO AGURCIA</p>
+                    <p>Roberto Paiz</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM PEDRO JOAQUIN AMADOR ESCALANTE.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Ruth Medina.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>PEDRO JOAQUIN AMADOR ESCALANTE</p>
+                    <p>Ruth Medina</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM PEDRO RAFAEL ALEGRIA MONCADA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Sarahi Vasquez.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>PEDRO RAFAEL ALEGRIA MONCADA</p>
+                    <p>Sarahi Vasquez</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM RASEL ANTONIO TOME FLORES.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Suyapa Figueroa.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>RASEL ANTONIO TOME FLORES</p>
+                    <p>Suyapa Figueroa</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM SENMA JULISSA VILLANUEVA BARAHONA.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Virgilio Padilla.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>SENMA JULISSA VILLANUEVA BARAHONA</p>
+                    <p>Virgilio Padilla</p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM WILMER MAREL VASQUEZ FLORENTINO.jpeg"
+                        src = "../../../../assets/partidos/psh/diputados/fm/Walter Moncada.webp"
                         width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
+                        alt= "Voto Honduras/diputados Partido Salvador de Honduras Francisco Morazán"
                     />
-                    <p>WILMER MAREL VASQUEZ FLORENTINO</p>
+                    <p>Walter Moncada</p>
                 </div>
-                <div>
-                    <StaticImage
-                        src = "../../../../assets/partidos/libre/diputados/fm/FM XIOMARA HORTENCIA ZELAYA CASTRO.jpeg"
-                        width = {500}
-                        alt= "Voto Honduras/diputados Partido Libertad y Refundación Francisco Morazán"
-                    />
-                    <p>XIOMARA HORTENCIA ZELAYA CASTRO</p>
-                </div>  
-              
             </Carousel>   
         </section>
 

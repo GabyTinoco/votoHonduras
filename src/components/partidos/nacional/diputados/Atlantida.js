@@ -44,57 +44,57 @@ const Atlantida = () => {
             >
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Amelia_Maritza_Carcamo_Puerto.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_Amelia_Maritza_Carcamo_Puerto.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p> Amelia Maritza Carcamo Puerto</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_David_Sanin_Manaiza_Ramírez.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_David_Sanin_Manaiza_Ramírez.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p> David Sanin Manaiza Ramírez</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Guadalupe_Trinidad_Tabora_Montoya.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_Guadalupe_Trinidad_Tabora_Montoya.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p> Guadalupe Trinidad Tabora Montoya</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Iveth_Obdulia_Matute_Betancourth.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_Iveth_Obdulia_Matute_Betancourth.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p>Iveth Obdulia Matute Betancourth</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Maria_Jose_Maresma_Peralta.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_Maria_Jose_Maresma_Peralta.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p> María José Maresma Peralta</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Onasis_Keusen_Garcia.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_Onasis_Keusen_Garcia.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p>Onasis Keusen Garcia</p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT_Osman_Alexander_Martinez_Canales.jpg"
+                        src = "../../../../assets/partidos/nacional/diputados/at/AT_Osman_Alexander_Martinez_Canales.jpg"
                         width = {500}
-                        alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
+                        alt= "Voto Honduras Diputados Partido Nacional Atlantida"
                     />
                     <p>Osman Alexander Martínez Canales</p>
                 </div> 

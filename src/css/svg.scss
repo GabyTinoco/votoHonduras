@@ -106,3 +106,123 @@ $partidoLiberalLight: #d81e05;
     height: auto;
     display: inline;
 }
+
+/*presidente svg*/
+#presidenteSVG {
+    span{ white-space:pre }
+    .shp0 { fill: #ffffff } 
+    .shp1 { fill: #fef9f3 } 
+    .shp2 { fill: #f14052 } 
+    .shp3 { fill: #105f9a } 
+    .shp4 { fill: #83c1f7 } 
+    .shp5 { fill: #ff8b6a } 
+    .shp6 { fill: none;stroke: #08051a;stroke-linecap:round;stroke-linejoin:round;stroke-width: 4.454 } 
+    .shp7 { fill: #323444 } 
+    .shp8 { fill: none;stroke: #381905;stroke-linecap:round;stroke-linejoin:round;stroke-width: 4.681 } 
+    .shp9 { fill: #454658 } 
+    .shp10 { fill: #381905 } 
+    .shp11 { fill: #cb374d } 
+    .shp12 { fill: #8e373f } 
+    .shp13 { fill: #6b222a } 
+    .shp14 { fill: none;stroke: #381905;stroke-linecap:round;stroke-linejoin:round;stroke-width: 3.413 } 
+    .shp15 { fill: #af4f5b } 
+    .shp16 { fill: none;stroke: #381905;stroke-linecap:round;stroke-linejoin:round;stroke-width: 3.545 } 
+    .shp17 { fill: #ff8c65 } 
+    .shp18 { fill: none;stroke: #83c1f7;stroke-width: 3 } 
+    .txt19 { font-size: 22px;fill: #323444;font-weight: 700;font-family: "Montserrat-Bold", "Montserrat" } 
+} 
+
+#alcaldeSVG {
+    tspan { white-space:pre }
+    .shp0 { fill: #202239 } 
+    .shp1 { fill: #717e9a } 
+    .shp2 { fill: #4a2224 } 
+    .shp3 { fill: #fba386 } 
+    .shp4 { fill: #e48c77 } 
+    .shp5 { fill: #ffc7b1 } 
+    .shp6 { fill: #652c2f } 
+    .shp7 { opacity: 0.631;fill: #fba386 } 
+    .shp8 { fill: none;stroke: #fba386;stroke-width: 8.767 } 
+    .shp9 { fill: #ffffff } 
+    .shp10 { fill: #da3437 } 
+    .shp11 { fill: #0a2043 } 
+    .shp12 { opacity: 0.631;fill: #ffffff } 
+    .shp13 { fill: none;stroke: #163462;stroke-width: 10 } 
+    .shp14 { fill: none;stroke: #0a2043;stroke-width: 8.553 } 
+    .shp15 { opacity: 0.62;mix-blend-mode: multiply;fill: #828caf } 
+    .shp16 { opacity: 0.161;mix-blend-mode: multiply;fill: #828caf } 
+    .shp17 { fill: #31334e } 
+    .shp18 { fill: #2a3262 } 
+    .shp19 { fill: #9d2729 } 
+    .shp20 { fill: #f1282a } 
+    .shp21 { fill: #ebeaef } 
+    .shp22 { fill: #3c52a5 } 
+    .shp23 { opacity: 0.329;fill: #0a2043 } 
+    .shp24 { fill: #511c3a } 
+    .shp25 { fill: #63204b } 
+    .shp26 { fill: #fcaa3c } 
+    .shp27 { fill: #828eb4 } 
+    .shp28 { fill: #c3c3ce } 
+    .shp29 { fill: #9aa6b9 } 
+    .shp30 { fill: #727f95 } 
+    .shp31 { fill: #58586c } 
+    .shp32 { fill: #37485d } 
+    .shp33 { fill: #4d8835 } 
+    .shp34 { opacity: 0.549;fill: #fff5c5 } 
+    .shp35 { fill: #5aac59 } 
+    .shp36 { opacity: 0.369;fill: #0a2043 } 
+    .shp37 { opacity: 0.29;fill: #0a2043 } 
+    .shp38 { opacity: 0.278;fill: #ffffff } 
+    .shp39 { fill: #3573bd } 
+    .shp40 { fill: #49a2f1 } 
+    .shp41 { fill: #ffd056 } 
+    .shp42 { fill: #fd7054 } 
+}
+
+#diputadoSVG {
+    tspan { white-space:pre }
+    .shp0 { fill: url(#grd1) } 
+    .shp1 { fill: url(#grd2) } 
+    .shp2 { fill: url(#grd3) } 
+    .shp3 { fill: url(#grd4) } 
+    .shp4 { fill: url(#grd5) } 
+    .shp5 { fill: url(#grd6) } 
+    .shp6 { fill: url(#grd7) } 
+    .shp7 { fill: url(#grd8) } 
+    .shp8 { fill: #e2784e } 
+    .shp9 { opacity: 0.251;fill: #e2784e } 
+    .shp10 { fill: #962c16 } 
+    .shp11 { opacity: 0.749;fill: url(#grd9) } 
+    .shp12 { fill: #221739 } 
+    .shp13 { opacity: 0.502;fill: #f3f3f5 } 
+    .shp14 { opacity: 0.749;fill: url(#grd10) } 
+    .shp15 { fill: url(#grd11) } 
+    .shp16 { fill: url(#grd12) } 
+    .shp17 { fill: url(#grd13) } 
+    .shp18 { fill: url(#grd14) } 
+    .shp19 { fill: url(#grd15) } 
+    .shp20 { fill: url(#grd16) } 
+    .shp21 { fill: url(#grd17) } 
+    .shp22 { fill: #370c03 } 
+    .shp23 { fill: url(#grd18) } 
+    .shp24 { fill: #c65e2b } 
+    .shp25 { fill: #772106 } 
+    .shp26 { fill: url(#grd19) } 
+    .shp27 { opacity: 0.502;fill: url(#grd20) } 
+    .shp28 { fill: #842308 } 
+    .shp29 { fill: #eb903d } 
+    .shp30 { fill: #591905 } 
+    .shp31 { fill: url(#grd21) } 
+    .shp32 { fill: #60a484 } 
+    .shp33 { fill: #0c0c35 } 
+    .shp34 { fill: #832c17 } 
+    .shp35 { opacity: 0.502;fill: #681b09 } 
+    .shp36 { fill: #d17e55 } 
+    .shp37 { fill: #f3f3f5 } 
+    .shp38 { fill: #848bd5 } 
+    .shp39 { fill: url(#grd22) } 
+}
+
+.encuesta {
+    cursor: pointer;
+}
