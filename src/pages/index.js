@@ -1,15 +1,14 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import HeroMain from '../components/home/Hero';
-import Split from '../components/home/Split';
 import Partidos from "../components/home/Partidos";
-
+import Seo from "../components/SEO";
 
 const Index = () => (
   <Layout>
+    <Seo  title="Inicio" />
     <HeroMain/>
     <Partidos/>
-    <Split/>
   </Layout>
 );
 

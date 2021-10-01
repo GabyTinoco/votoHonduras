@@ -118,7 +118,7 @@ footer {
   display: inline-grid;
   position: absolute;
   top: 63%;
-  left: 55%;
+  left: 60%;
   background: #fff;
   padding: 0;
 }
@@ -138,3 +138,14 @@ footer {
   margin: 0 !important;
  }
  
+.presidente ul {
+  list-style: initial;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-top: 13px;
+}
+
+.disclaimer {
+  text-align: center;
+  color: $primaryColor;
+}

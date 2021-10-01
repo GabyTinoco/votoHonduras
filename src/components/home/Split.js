@@ -18,6 +18,7 @@ const Split = () => {
             Our team of enthusiastic marketers will analyse and evaluate how your company stacks
             against the closest competitors
           </p>
+          <Button size="lg">Explorar</Button>
         </div>
       }
   
@@ -31,6 +32,7 @@ const Split = () => {
           <p className="mt-8 text-xl font-light leading-relaxed">
              Tu desición cuenta, participa y conoce los resultados
           </p>
+          <Button size="lg">Explorar</Button>
         </div>
       }
       secondarySlot={<Encuestas />}
@@ -42,6 +44,7 @@ const Split = () => {
           <p className="mt-8 text-xl font-light leading-relaxed">
             Conoce en tiempo real los resultados de las elecciones generales 2021
           </p>
+          <Button size="lg">Explorar</Button>
         </div>
       }
       secondarySlot={<SvgCharts />}

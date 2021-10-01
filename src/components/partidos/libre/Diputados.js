@@ -5,7 +5,7 @@ import Atlantida from "../../../svg/Atlantida";
 import Choluteca from "../../../svg/Choluteca";
 
 import DiputadosCortes from "./diputados/Cortes";
-import DiputadosFranciscoMorazan from "./diputados/FranciscoMorazan"
+import DiputadosFranciscoMorazan from "./diputados/FM"
 import DiputadosAtlantida from "./diputados/Atlantida"
 import DiputadosCholuteca from "./diputados/Choluteca";
 

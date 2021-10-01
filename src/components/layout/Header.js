@@ -51,14 +51,10 @@ const Header = ({ siteTitle }) => {
                   <Link activeClass="active"to="/liberal">Partido Liberal</Link>
                   <Link activeClass="active"to="/libre">Partido Libre</Link>
                   <Link activeClass="active"to="/psh">Partido PSH</Link>
-                  <Link activeClass="active"to="/vamos">Partido Vámos</Link>
-                  <Link activeClass="active"to="/independiente">Partido Independientes</Link>
                  </ul>
               )}
             
-            <Link activeClass="active"to="/mapa">Mapa</Link>
             <Link activeClass="active"to="/encuestas" target = "_blank" >Encuestas</Link>
-            <Link activeClass="active"to="/proyecciones">Proyecciones</Link>
             <Link activeClass="active"to="/noticias">Noticias</Link>
           </ul>
           <div className={burgerClass} onClick={toggle}>
