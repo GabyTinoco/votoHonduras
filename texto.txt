@@ -1,0 +1,23 @@
+Voto Honduras es un portal Open Source fundado por Control Hub Space cual misión es brindarle a la ciudadanía datos certeros, 
+nformación open source de los partidos y tendencias para llevar transparencia a los procesos electorales en Honduras.
+¿Que es?
+Somos una iniciativa que en conjunto a Control Hub Space abre los datos y el poder de la información para que exista 
+la transparencia en los procesos electorales en Honduras. Usamos un conjunto de herramientas que permiten crear proyecciones 
+y análisis a profundidad en temas electorales en Honduras.
+¿Como lo hacemos?
+Voto Honduras es un portal Open Source fundado por Control Hub Space cual misión es brindarle a la ciudadanía datos certeros, información 
+open source de los partidos y tendencias para llevar transparencia a los procesos electorales en Honduras.
+Mapa de sentimientos: El mapa de sentimientos es una característica donde podemos ver la aceptación digital de los candidatos o 
+tendencias políticas basadas en un big data digital, encuestas e información de elecciones anteriores que nos ayudan a tener un mapa de calor o de 
+interacción por partidos, candidatos o movimientos.
+Encuestas:
+Nuestra publicaciones de encuestas son tomadas de nuestros afiliados Honduencuestas.com los cuales recolectan datos de manera masiva a
+nivel nacional, Honduencuestas tiene como fin poder trazar un mapa territorial de posicionamiento basado en el comportamiento, 
+decisión y afiliación política del electorado digital.
+
+
+
+
+Datos certeros, 
+nformación open source de los partidos y tendencias para llevar transparencia a los procesos electorales en Honduras.
+¿Que es?

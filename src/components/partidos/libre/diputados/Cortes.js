@@ -49,7 +49,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>ADELIANO AMAYA MENDOZA</p>
+                    <p>Adeliano Amaya Mendoza</p>
                 </div>
                 <div>
                     <StaticImage
@@ -57,7 +57,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>DENIS EDGARDO RIVERA ALVARADO</p>
+                    <p>Denis Edgardo Rivera Alvarado</p>
                 </div>
                 <div>
                     <StaticImage
@@ -65,7 +65,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>ENA ROSA MORAN ORTIZ</p>
+                    <p>Ena Rosa Moran Ortiz </p>
                 </div>
                 <div>
                     <StaticImage
@@ -73,7 +73,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>HAYLIN RAQUEL SUÁREZ LÓPEZ </p>
+                    <p>Haylin Raquel Suárez López </p>
                 </div>
                 <div>
                     <StaticImage
@@ -81,7 +81,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>HELIN MERARY AVILA MENDOZA</p>
+                    <p>Helin Merary Ávila Mendoza</p>
                 </div>
                 <div>
                     <StaticImage
@@ -89,7 +89,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>IRIS YANETH PINEDA PAZ</p>
+                    <p>Iris Yaneth Pineda Paz</p>
                 </div>
                 <div>
                     <StaticImage
@@ -97,7 +97,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>JACOBO RIVERA DIAZ</p>
+                    <p>Jacobo Rivera Díaz</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -105,7 +105,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>JIMMY JONATHAN SORTO PAZ</p>
+                    <p>Jimmy Jonathan Sorto Paz</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -113,7 +113,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>JORGE ALBERTO BARAHONA OVIEDO</p>
+                    <p>Jorge Alberto Barahona Oviedo</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -121,7 +121,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>JOSE EDGARDO CASTRO RODRÍGUEZ.png</p>
+                    <p>José Edgardo Castro Rodríguez</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -129,7 +129,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>LINDA FRANCES DONAIRE PORTILLO</p>
+                    <p>Linda Frances Donaire Portillo</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -137,7 +137,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>MERCEDES GRACIELA MILLA SANCHEZ</p>
+                    <p>Mercedes Graciela Milla Sánchez</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -145,7 +145,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>NETZER EDU MEJÍA HERNÁNDEZ</p>
+                    <p>Netzer Edu Mejía Hernández</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -153,7 +153,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>RAMON ENRIQUE BARRIOS MALDONADO</p>
+                    <p>Ramón Enrique Barrios Maldonado</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -161,7 +161,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>SCHERLY MELISSA ARRIAGA GOMEZ</p>
+                    <p>Scherly Melissa Arriaga Gómez</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -169,7 +169,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>SILVIA BESSY AYALA FIGUEROA</p>
+                    <p>Silvia Bessy Ayala Figueroa</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -177,7 +177,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>WILMER ENRIQUE CRUZ PAREDES</p>
+                    <p>Wilmer Enrique Cruz Paredes</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -185,7 +185,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Libertad y Refundación Cortés"
                     />
-                    <p>ZOILA AMERICA COLINDRES LOPEZ </p>
+                    <p>Zoila América Colindres López </p>
                 </div> 
             </Carousel>   
         </section>

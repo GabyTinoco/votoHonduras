@@ -49,7 +49,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras diputados Partido Liberal Cortés"
                     />
-                    <p> Agustin Guerrero Bernandez</p>
+                    <p> Agustín Guerrero Bernárdez</p>
                 </div>
                 <div>
                     <StaticImage
@@ -81,7 +81,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Elisa Margarita Gomez Castro</p>
+                    <p>Elisa Margarita Gómez Castro</p>
                 </div>
                 <div>
                     <StaticImage
@@ -89,7 +89,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Etny Simei Uyoa Martinez</p>
+                    <p>Etny Simei Uyoa Martínez</p>
                 </div>
                 <div>
                     <StaticImage
@@ -97,7 +97,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Gloria Carolina Milian Velasquez</p>
+                    <p>Gloria Carolina Milian Velásquez</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -113,7 +113,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Jacobo Roberto Sanchez Martinez</p>
+                    <p>Jacobo Roberto Sánchez Martínez</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -129,7 +129,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Juan Carlos Avila Pacheco</p>
+                    <p>Juan Carlos Ávila Pacheco</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -137,7 +137,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Kathia Marcela Crivelli Ramirez</p>
+                    <p>Kathia Marcela Crivelli Ramírez</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -161,7 +161,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Pedro Luis Garcia Canaca</p>
+                    <p>Pedro Luis García Canaca</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -185,7 +185,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Liberal Cortés"
                     />
-                    <p>Sofia Michelle Canahuati Mejia</p>
+                    <p>Sofia Michelle Canahuati Mejía</p>
                 </div> 
                 <div>
                     <StaticImage

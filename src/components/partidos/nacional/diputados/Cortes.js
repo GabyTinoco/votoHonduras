@@ -65,7 +65,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Nacional Cortés"
                     />
-                    <p>Daisy Maria Andonie López</p>
+                    <p>Daisy María Andonie López</p>
                 </div>
                 <div>
                     <StaticImage
@@ -81,7 +81,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Nacional Cortés"
                     />
-                    <p>Giberto Jeronimo Yearwood</p>
+                    <p>Gilberto Jerónimo Yearwood</p>
                 </div>
                 <div>
                     <StaticImage
@@ -89,7 +89,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Nacional Cortés"
                     />
-                    <p>Guillermo Alberto Bogran Castro</p>
+                    <p>Guillermo Alberto Bográn Castro</p>
                 </div>
                 <div>
                     <StaticImage
@@ -137,7 +137,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Nacional Cortés"
                     />
-                    <p>Laura Patricia Enamorado Solis</p>
+                    <p>Laura Patricia Enamorado Solís</p>
                 </div> 
                 <div>
                     <StaticImage
@@ -161,7 +161,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras/diputados Partido Nacional Cortés"
                     />
-                    <p>Marlen Nohemi Matamoros Flores</p>
+                    <p>Marlen Nohemí Matamoros Flores</p>
                 </div> 
                 <div>
                     <StaticImage

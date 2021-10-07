@@ -65,17 +65,18 @@ class ListadoEncuestas extends Component {
                     </div>
                     { 
                         !this.state.presidentes?
-                        <iframe width="1280" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNzFjZjU3NGYtMGFiNi00M2JlLTgzOWMtNjhkYjYzNDA0ZmIxIiwidCI6Ijk0ODUyNTE4LWM3NTctNDNjYi04Yzg2LTUyMTczZTQyYjVlOCJ9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe width="1280" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiODRlOGFkODItMGY0OC00MzBjLWE4MjktMjU0NDdjYmJkMzA1IiwidCI6Ijk0ODUyNTE4LWM3NTctNDNjYi04Yzg2LTUyMTczZTQyYjVlOCJ9" frameborder="0" allowFullScreen="true"></iframe>
                         :null
                     }
                     { 
                         !this.state.alcaldes?
-                        <iframe width="1280" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwMDQyYTYtZDU1Yy00YTE1LTkwZGMtOTkyODc4ZjNlMzMwIiwidCI6Ijk0ODUyNTE4LWM3NTctNDNjYi04Yzg2LTUyMTczZTQyYjVlOCJ9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe width="1280" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiOTY4NWI3ZjctNDhhMC00NTMwLWI0MTctZmFjMjgzZWVjYjNkIiwidCI6Ijk0ODUyNTE4LWM3NTctNDNjYi04Yzg2LTUyMTczZTQyYjVlOCJ9" frameborder="0" allowFullScreen="true"></iframe>
+
                         :null
                     }
                     { 
                         !this.state.diputados?
-                        <iframe width="1280" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZWVlNjE5NDUtZDM5NC00NzBiLThkZGMtNTk5NmIzMDFkMWRjIiwidCI6Ijk0ODUyNTE4LWM3NTctNDNjYi04Yzg2LTUyMTczZTQyYjVlOCJ9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe width="1280" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiMzU1MzI0OGMtZDE5YS00ZDIyLWJkNGMtZjYzMDE4MmQxZTM4IiwidCI6Ijk0ODUyNTE4LWM3NTctNDNjYi04Yzg2LTUyMTczZTQyYjVlOCJ9" frameborder="0" allowFullScreen="true"></iframe>
                         :null
                     }       
        
