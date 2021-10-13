@@ -1,5 +1,4 @@
 import React from "react"
-import Button from '../Button';
 import HeroImage from "../../svg/Vote.js";
 const Hero = () => {
     return (

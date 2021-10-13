@@ -3,9 +3,9 @@ import HeroImage from "../../svg/Encuestas";
 import { Link } from "gatsby";
 const Encuestas = () => {
     return (
-    <section className = "hero-main">
-        <div className="container mx-auto px-8 lg:flex md:pt-40">
-          <div className="text-center lg:text-left lg:w-1/2">
+    <section className = "hero-main" id = "home-main-hero">
+        <div className="container mx-auto px-8 lg:flex md:pt-40 md:pb-20 my-20">
+          <div className="text-center lg:text-left lg:w-1/2 contendor">
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
               Resultados del proceso electoral 2021
             </h1>
