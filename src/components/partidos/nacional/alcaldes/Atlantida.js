@@ -29,12 +29,12 @@ const Atlantida = () => {
             <Carousel
                 swipeable={false}
                 draggable={false}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={1000}
+                infinite={false}
+                autoPlay={false}
+                autoPlaySpeed={500}
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
@@ -44,11 +44,11 @@ const Atlantida = () => {
             >
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Carlos Eduardo Cortez Gonzáles ESPARTA.jpg"
+                        src = "../../../../assets/partidos/nacional/alcaldes/at/AT Carlos Eduardo Cortez Gonzales ESPARTA.jpg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Carlos Eduardo Cortez Gonzáles <em>ESPARTA</em></p>
+                    <p>Carlos Eduardo Cortez Gonzáles <em>Esparta</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -56,7 +56,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Gerardo Antonio Quijada Romero <em>LA MASICA</em></p>
+                    <p>Gerardo Antonio Quijada Romero <em>La Masica</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -64,7 +64,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Mario José Meléndez Matute <em>EL PORVENIR</em></p>
+                    <p>Mario José Meléndez Matute <em>El porvernir</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -72,7 +72,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Martha Patricia Montes Gamez<em> SAN FRANCISCO</em></p>
+                    <p>Martha Patricia Montes Gamez <em>San Francisco</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -80,7 +80,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Mauricio Caliz Ceballos <em>CEIBA</em></p>
+                    <p>Mauricio Caliz Ceballos <em>Ceiba</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -88,7 +88,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Ricardo Calix Ruiz <em>TELA</em></p>
+                    <p>Ricardo Calix Ruiz <em>Tela</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -96,7 +96,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Santos Miguel Nataren Meléndez <em>JUTIAPA</em></p>
+                    <p>Santos Miguel Nataren Meléndez <em>Juatiapa</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -104,7 +104,7 @@ const Atlantida = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Cortés"
                     />
-                    <p>Wilfredo Elias Castellanos Madrid <em>ARIZONA</em></p>
+                    <p>Wilfredo Elias Castellanos Madrid <em>Arizona</em></p>
                 </div> 
             </Carousel>   
         </section>

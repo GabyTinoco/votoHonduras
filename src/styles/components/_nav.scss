@@ -52,6 +52,7 @@
     font-size: 0.9rem;
     font-weight: 700;
     color: $navLabelsColor;
+    text-align: center;
   }
   li {
     list-style: none;
@@ -109,7 +110,7 @@
     right: 0;
     height: 92vh;
     background-color: $navColor;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 50%;
@@ -136,6 +137,7 @@
 
   .nav-active {
     transform: translateX(0%);
+    display: flex;
   }
 
   @keyframes navLinkFade {

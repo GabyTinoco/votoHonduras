@@ -3,9 +3,9 @@ import Button from '../Button';
 import HeroImage from "../../svg/Vote.js";
 const Hero = () => {
     return (
-    <section className = "hero-main">
+    <section className = "hero-main" id = "home-main-hero">
         <div className="container mx-auto px-8 lg:flex md:pt-40">
-          <div className="text-center lg:text-left lg:w-1/2 p-20">
+          <div className="text-center lg:text-left lg:w-1/2 p-20 contenedor">
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
               Voto Honduras 
             </h1>

@@ -11,6 +11,24 @@ const Split = () => {
     return (
     <section>
     <SplitSection
+      id="services"
+      primarySlot={
+        <div className="lg:pr-32 xl:pr-48">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Mapa de Sentimientos</h1>
+          <p className="mt-8 mb-8 text-xl font-light leading-relaxed">
+              El mapa de sentimientos es una característica donde podemos ver la aceptación digital de los candidatos o 
+              tendencias políticas basadas en un big data digital, encuestas e información de elecciones anteriores que nos ayudan a 
+              tener un mapa de calor o de interacción por partidos, candidatos o movimientos.
+          </p>
+          <Link activeClass="active"to="/mapa" target = "_blank" >
+          <Button size="lg">Explorar</Button>
+          </Link>
+        </div>
+      }
+  
+      secondarySlot={<Mapa/>}
+    />
+    <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">

@@ -4,10 +4,10 @@ import FranciscoMorazan from "../../../svg/FranciscoMorazan";
 import Atlantida from "../../../svg/Atlantida";
 import Choluteca from "../../../svg/Choluteca";
 
-//import DiputadosCortes from "./diputados/Cortes";
+import DiputadosCortes from "./diputados/Cortes";
 import DiputadosFranciscoMorazan from "./diputados/FM";
-//import DiputadosAtlantida from "./diputados/Atlantida"
-//import DiputadosCholuteca from "./diputados/Choluteca";
+import DiputadosAtlantida from "./diputados/Atlantida"
+import DiputadosCholuteca from "./diputados/Choluteca";
 
 class Diputados extends Component {
     constructor() {
@@ -61,7 +61,7 @@ class Diputados extends Component {
         <section className="container py-16 md:py-20 mx-auto">
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none"> Canditados a diputados</h1>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 pt-10 md:pt-12">
-                <div class="shadow px-4 py-4 bg-primary-departamentos  group rounded">
+                <div class="shadow px-4 py-4 bg-primary-departamentos  group rounded"  onClick = { () => this.diputadosCT()} >
                     <div class="text-center w-24 xl:w-28 h-24 xl:h-28 mx-auto">
                         <div class="block group-hover:hidden">
                             <Cortes/>
@@ -83,7 +83,7 @@ class Diputados extends Component {
                             Francisco Morazán</h3>
                     </div>
                 </div>
-                <div class="shadow px-4 py-4 bg-primary-departamentos group rounded">
+                <div class="shadow px-4 py-4 bg-primary-departamentos group rounded"  onClick = { () => this.diputadosAT()}>
                     <div class="text-center w-24 xl:w-28 h-24 xl:h-28 mx-auto">
                         <div class="block group-hover:hidden">
                             <Atlantida/>
@@ -95,7 +95,7 @@ class Diputados extends Component {
                         </h3>
                     </div>
                 </div>
-                <div class="shadow px-4 py-4 bg-primary-departamentos group rounded">
+                <div class="shadow px-4 py-4 bg-primary-departamentos group rounded"  onClick = { () => this.diputadosCH()}>
                     <div class="text-center w-24 xl:w-28 h-24 xl:h-28 mx-auto">
                         <div class="block group-hover:hidden">
                             <Choluteca/>

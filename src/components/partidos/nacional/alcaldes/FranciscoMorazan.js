@@ -31,18 +31,18 @@ const FranciscoMorazan = () => {
             <Carousel
                 swipeable={false}
                 draggable={false}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={1000}
+                infinite={false}
+                autoPlay={false}
+                autoPlaySpeed={500}
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                itemClass="carousel-item-padding-40-px  p-4"
+                itemClass="carousel-item-padding-40-px p-4"
             >
                 <div>
                     <StaticImage
@@ -50,7 +50,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Cristobal Rubius Zabala <em>CURAREN</em></p>
+                    <p>Cristobal Rubius Zabala <em>Curaren</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -58,7 +58,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>German Rafael Diaz Ávila <em>SABANAGRANDE</em></p>
+                    <p>German Rafael Diaz Ávila <em>Sabanagrande</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -66,7 +66,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Oscar Arnulfo Fiallos Maradiaga <em> ALUBAREN</em></p>
+                    <p>Oscar Arnulfo Fiallos Maradiaga <em>Alubaren</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -74,7 +74,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Adalberto Catalino Ramos Cardona <em>MARALE</em></p>
+                    <p>Adalberto Catalino Ramos Cardona <em>Marale</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -82,7 +82,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Andrés Abelina Servellon Lagos <em> LEPATERIQUE</em></p>
+                    <p>Andrés Abelina Servellon Lagos <em>Lepaterique</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -90,7 +90,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Angel Rafael Aguilar Gonzáles <em> OJOJONA</em></p>
+                    <p>Angel Rafael Aguilar Gonzáles <em>Ojojona</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -98,7 +98,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>David Guillermo Chávez Madison <em> DISTRITO CENTRAL</em></p>
+                    <p>David Guillermo Chávez Madison <em> Distrito Central</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -106,7 +106,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Digna Italia Ruiz Gonzáles <em>SAN ANTONIO DE ORIENTE</em></p>
+                    <p>Digna Italia Ruiz Gonzáles <em>San Antonio de Oriente</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -114,7 +114,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Enayuda Pamela Zavala Herrera <em>ORICA</em></p>
+                    <p>Enayuda Pamela Zavala Herrera <em>Orica</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -122,7 +122,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Felicito Funez Rubi <em> SAN MIGUELITO</em></p>
+                    <p>Felicito Funez Rubi <em> San Miguelito</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -130,7 +130,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Feliz Adrian Alvarenga Villalta <em>MARAITA</em></p>
+                    <p>Feliz Adrian Alvarenga Villalta <em>Maraita</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -138,7 +138,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Gerson Isaac Rivera Arias <em> SAN IGNACIO</em></p>
+                    <p>Gerson Isaac Rivera Arias <em> San Ignacio</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -146,7 +146,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Hugo Eleazar Flores Valladares <em>VALLECILLOS</em></p>
+                    <p>Hugo Eleazar Flores Valladares <em>Vallecillos</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -154,7 +154,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Jaime Orlando Andino Castillo <em>SAN BUENAVENTURA</em></p>
+                    <p>Jaime Orlando Andino Castillo <em>San Buenaventura</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -162,7 +162,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>José Adan Sierra Castro <em>LA VENTA</em></p>
+                    <p>José Adan Sierra Castro <em>La Venta</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -170,7 +170,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM José Luis Ponce Lazo <em>  SANTA ANA</em></p>
+                    <p>José Luis Ponce Lazo <em>Santa Ana </em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -178,7 +178,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Juan Ramón Peréz Rodas <em>REITOCA</em></p>
+                    <p>Juan Ramón Peréz Rodas <em>Reitoca</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -186,7 +186,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Juan Ramón Salgado Henriquez <em>VILLA SAN FRANCISCO.</em></p>
+                    <p>Juan Ramón Salgado Henriquez <em>Villa San Francisco</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -194,7 +194,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Julio Antonio Ávilez Moncada <em>SANTA LUCIA</em></p>
+                    <p>Julio Antonio Ávilez Moncada <em>Santa Lucía</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -202,7 +202,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Lilian Ramona Morazán Garcia <em>EL PORVENIR</em></p>
+                    <p>Lilian Ramona Morazán Garcia <em>El Porvenir</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -210,7 +210,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Marco Tulio Carrasco Martínez <em> CEDROS</em></p>
+                    <p>Marco Tulio Carrasco Martínez <em>Cedros</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -218,7 +218,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Marco Tulio Martínez Casco <em>TATUMBLA</em></p>
+                    <p>Marco Tulio Martínez Casco <em>Tatumbla</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -226,7 +226,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Marlin Luis Barahona López <em>NUEVA ARMENIA</em></p>
+                    <p>Marlin Luis Barahona López <em>Nueva Armenia</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -234,7 +234,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Nelson René Chávez Hernández <em>GUAIMACA</em></p>
+                    <p>Nelson René Chávez Hernández <em>Guaimaca</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -242,7 +242,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Norlan David Medina Alonzo <em>CANTARRANAS</em></p>
+                    <p>Norlan David Medina Alonzo <em>Cantarranas</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -250,7 +250,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Roosevelt Eduardo Áviles Santos <em>TALANGA</em></p>
+                    <p>Roosevelt Eduardo Áviles Santos <em>Talanga</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -258,7 +258,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>FM Wilfredo Ponce Ponce <em>  VALE DE ANGELES</em></p>
+                    <p>Wilfredo Ponce Ponce <em>Valle de ángeles</em></p>
                 </div> 
               
                 <div>
@@ -267,7 +267,7 @@ const FranciscoMorazan = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Francisco Morazán"
                     />
-                    <p>Wilson Nehemias Oyuela Maldonado <em>LA LIBERTAD</em></p>
+                    <p>Wilson Nehemias Oyuela Maldonado <em>La Libertad</em></p>
                 </div> 
               
             </Carousel>   

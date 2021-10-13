@@ -31,17 +31,15 @@ const Cortes = () => {
             <Carousel
                 swipeable={false}
                 draggable={false}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={2000}
+                infinite={false}
+                autoPlay={false}
+                autoPlaySpeed={0}
                 keyBoardControl={true}
-                customTransition="all .5"
-                transitionDuration={500}
+                transitionDuration={1000}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
                 itemClass="carousel-item-padding-40-px p-4"
             >
                 <div>
@@ -50,7 +48,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>JOSE ANTONIO RIVERA MATUTE<em>SPS</em></p>
+                    <p>José Antonio Rivera Matute <em>SPS</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -58,7 +56,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>GLORIA PATRICIA PINEDA LEIVA<em>San Francisco de Yojoa</em></p>
+                    <p>Gloria Patricia Pineda Leiva <em>San Francisco de Yojoa</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -66,7 +64,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>MARIA LUISA MARTELL CANIZALES<em>Puerto Cortés</em></p>
+                    <p>María Luisa Martell Canizales <em>Puerto Cortés</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -74,7 +72,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>MARCIO ARMANDO AMADOR GUTIERREZ<em>San Manuel</em></p>
+                    <p>Marcio Armando Amador Gutierrez <em>San Manuel</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -90,7 +88,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>ASTOR ADOLFO AMAYA FUENTES <em>La Lima</em></p>
+                    <p>Astor Adolfo Amaya Fuentes <em>La Lima</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -98,7 +96,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>CARLOS NOE RIVERA MANZANARES<em>Potrerillos</em></p>
+                    <p>Carlo Noé Rivera<em>Potrerillos</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -106,7 +104,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>OSCAR ARMANDO PEREZ PAZ <em>Pimienta</em></p>
+                    <p>Oscar Armando Peréz Paz <em>Pimienta</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -114,7 +112,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>JUNIOR EDGARDO MADRID MURCIA <em>Omoa</em></p>
+                    <p>Junior Edgardo Madrid Murcia <em>Omoa</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -122,7 +120,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>WALTER SMELIN PERDOMO AGUILAR <em>Villanueva</em></p>
+                    <p>Walter Smelin Perdomo Aguilar <em>Villanueva</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -130,7 +128,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>JESUS EDUARDO NUÑEZ SERRANO<em>San Antonio de Cortés</em></p>
+                    <p>Jesús Eduardo Nuñez Serrano <em>San Antonio de Cortés</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -138,7 +136,7 @@ const Cortes = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Liberal Cortés"
                     />
-                    <p>ROBERTO PINEDA CHACON <em>Santa Cruz DE Yojoa</em></p>
+                    <p>Roberto Pineda Chacón <em>Santa Cruz de Yojoa</em></p>
                 </div>       
             </Carousel>   
         </section>

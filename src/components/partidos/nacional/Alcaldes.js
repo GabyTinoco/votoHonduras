@@ -50,7 +50,7 @@ class Alcaldes extends Component {
     alcaldesCH () {
         this.setState({
             alcaldesCH: !this.state.alcaldesCH,
-            alcaldesFM: !this.state.alcaldesFM,
+            alcaldesFM: this.state.alcaldesFM,
             alcaldesAT: this.state.alcaldesAT,
             alcaldesCT: this.state.alcaldesCT,
         })

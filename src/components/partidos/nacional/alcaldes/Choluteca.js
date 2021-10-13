@@ -29,12 +29,12 @@ const Choluteca = () => {
             <Carousel
                 swipeable={false}
                 draggable={false}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={1000}
+                infinite={false}
+                autoPlay={false}
+                autoPlaySpeed={500}
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
@@ -48,7 +48,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Presentación Mendoza Cerrato <em>APACILAGUA</em></p>
+                    <p>Presentación Mendoza Cerrato <em>Apacigualpa</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -56,7 +56,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Oscar Abraham Argeñal Espinal <em>CHOLUTECA</em></p>
+                    <p>Oscar Abraham Argeñal Espinal <em>Choluteca</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -64,7 +64,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Vilma Yamileth Ordoñez Corrales <em>CONCEPCIÓN DE MARÍA</em></p>
+                    <p>Vilma Yamileth Ordoñez Corrales <em>Conncepción de María</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -72,7 +72,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Celfida Amada Bustillo Cerna <em>DUYURE</em></p>
+                    <p>Celfida Amada Bustillo Cerna <em>Duyure</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -80,7 +80,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Luis Andres Rueda Bellino <em>EL CORPUS</em></p>
+                    <p>Luis Andres Rueda Bellino <em>El Corpus</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -88,7 +88,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Samuel Armando Ventura Martinez <em>EL TRIUNFO</em></p>
+                    <p>Samuel Armando Ventura Martinez <em>El triunfo</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -96,7 +96,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Agustin Carcia <em>MARCOVIA</em></p>
+                    <p>Agustin Carcia <em>Marcovia</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -104,7 +104,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>José Presentación Barahona Laínez <em>MOROLICA</em></p>
+                    <p>José Presentación Barahona Laínez <em>Morolica</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -112,7 +112,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>José Cirilo García Abrego <em>NAMASIGUE</em></p>
+                    <p>José Cirilo García Abrego <em>Namasigue</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -120,7 +120,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p> Alejandro Jose Osorto <em>OROCUINA</em></p>
+                    <p> Alejandro Jose Osorto <em>Orocuina</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -128,7 +128,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Hector Samuel Colindres García <em>PESPIRE</em></p>
+                    <p>Hector Samuel Colindres García <em>Pespire</em></p>
                 </div> 
                 <div>
                     <StaticImage
@@ -136,7 +136,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Cesar Augusto Nuñez Lagos <em>SAN ANTONIO DE FLORES</em></p>
+                    <p>Cesar Augusto Nuñez Lagos <em>San Antonio de Flores</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -144,7 +144,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Luis Antonio Hernandez Canales <em>SAN ISIDRO</em></p>
+                    <p>Luis Antonio Hernandez Canales <em>San Isidro</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -152,7 +152,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Nahúm Zambrano Estrada <em>SAN JOSÉ</em></p>
+                    <p>Nahúm Zambrano Estrada <em>San José</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -160,7 +160,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>José Douglas Ordoñez Carrazco <em>SAN MARCOS DE COLÓN</em></p>
+                    <p>José Douglas Ordoñez Carrazco <em>San Marcos de Colón</em></p>
                 </div>
                 <div>
                     <StaticImage
@@ -168,7 +168,7 @@ const Choluteca = () => {
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Nacional Choluteca"
                     />
-                    <p>Ruben Antonio Najar Aguilera <em>SANTA ANA DE YUSGUARE </em></p>
+                    <p>Ruben Antonio Najar Aguilera <em>Santa Ana de Yusguare </em></p>
                 </div>         
             </Carousel>   
         </section>

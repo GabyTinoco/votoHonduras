@@ -118,7 +118,7 @@ footer {
   display: inline-grid;
   position: absolute;
   top: 63%;
-  left: 60%;
+  left: 58%;
   background: #fff;
   padding: 0;
 }
@@ -154,3 +154,49 @@ footer {
   color: $primaryColor;
   margin-top: 10px
 }
+
+#team p,  #team em {
+  text-transform: capitalize;
+}
+
+.react-multi-carousel-dot button {
+  width: 20px !important;
+  height: 20px !important;
+  border-color:$primaryColor !important;
+}
+
+.react-multi-carousel-dot button:hover:active, .react-multiple-carousel__arrow{
+  background: $primaryColor !important;
+}
+.react-multi-carousel-dot--active button {
+  background: #fff !important;
+}
+
+.react-multi-carousel-track {
+  min-height: 363px;
+}
+
+
+
+@media only screen and (max-width : 640px) {
+  #home-main-hero {
+    .contenedor {
+      padding: 1rem;
+    }
+    h1 {
+      margin-top: 17px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+  
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-active {
+    display: flex !important;
+  }
+}
+

@@ -22,6 +22,16 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
         name: 'images',
       },
+    },
+   {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Voto Honduras',
+        short_name: 'Voto Honduras',
+        start_url: '/',
+        display: 'standalone',
+        icon: 'src/assets/favicon.png',
+      }
     }
   ]
 };

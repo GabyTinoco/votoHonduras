@@ -29,15 +29,14 @@ const Atlantida = () => {
             <Carousel
                 swipeable={false}
                 draggable={false}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={2000}
+                infinite={false}
+                autoPlay={false}
+                autoPlaySpeed={0}
                 keyBoardControl={true}
-                customTransition="all .5"
-                transitionDuration={100}
+                transitionDuration={1000}
                 containerClass="carousel-container"
                 itemClass="carousel-item-padding-40-px p-4"
             >

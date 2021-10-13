@@ -13,7 +13,7 @@ const Partidos = () => {
               <Link to="/nacional" >
                 <Card className="mb-8">
                   <StaticImage
-                        src = "../../assets/banderas/bandera_partido_nacional.png"
+                        src = "../../assets/banderas/bandera_partido_nacional.jpg"
                         width = {500}
                         alt= "Voto Honduras Partido Nacional"
                     />
@@ -25,7 +25,7 @@ const Partidos = () => {
               <Link to="/liberal" >
                 <Card className="mb-8">
                     <StaticImage
-                        src = "../../assets/banderas/bandera_partido_liberal.png"
+                        src = "../../assets/banderas/bandera_partido_liberal.jpg"
                         width = {500}
                         alt= "Voto Honduras Partido Liberal"
                     />
@@ -41,7 +41,7 @@ const Partidos = () => {
                         width = {500}
                         alt= "Voto Honduras Partido Libre"
                     />
-                  <p className="font-semibold text-xl">Partido Libertad y Refundación</p>
+                  <p className="font-semibold text-xl">Partido Libre</p>
                 </Card>
               </Link>          
             </div>
@@ -49,7 +49,7 @@ const Partidos = () => {
             <Link to="/psh" >
               <Card className="mb-8">
                   <StaticImage
-                      src = "../../assets/banderas/bandera_partido_salvador.png"
+                      src = "../../assets/banderas/bandera_partido_salvador.jpg"
                       width = {500}
                       alt= "Voto Honduras Partido Salvador de Honduras"
                   />

@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 const General = () => {
   return (
-    <section className = "hero-main">
+    <section>
       <div class="features px-4 md:px-8">
         <div class="container mx-auto">
           <div class="flex flex-col md:flex-row items-center content-center py-12 lg:pt-16 lg:pb-32">

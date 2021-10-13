@@ -31,18 +31,18 @@ const FranciscoMorazan = () => {
             <Carousel
                 swipeable={false}
                 draggable={false}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={1000}
+                infinite={false}
+                autoPlay={false}
+                autoPlaySpeed={500}
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                itemClass="carousel-item-padding-40-px  p-4"
+                itemClass="carousel-item-padding-40-px p-4"
             >
                 <div>
                     <StaticImage

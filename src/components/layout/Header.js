@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => {
                   <Link activeClass="active"to="/psh">Partido PSH</Link>
                  </ul>
               )}
-            
+            <Link activeClass="active"to="/mapa" target = "_blank" >Mapa</Link>
             <Link activeClass="active"to="/encuestas" target = "_blank" >Encuestas</Link>
             <Link activeClass="active"to="/noticias">Noticias</Link>
           </ul>
