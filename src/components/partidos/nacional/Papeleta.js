@@ -5,51 +5,11 @@ import Diputados from "./Diputados";
 
 
 class Papeleta extends Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
-            showMe: true,
-            diputados: true,
-            alcaldes: true,
-            presidente: true,
-            diputadosFM: true,
+            selected: 0
         }
-    }
-
-    presidente () {
-        this.setState({
-            presidente: !this.state.presidente,
-            alcaldes: this.state.alcaldes,
-            diputados: this.state.diputados
-        })
-    }
-
-    diputados () {
-       this.setState({
-           diputados: !this.state.diputados,
-           presidente: this.state.presidente,
-           alcaldes: this.state.alcaldes
-       })
-    }
-
-    operation () {
-        this.setState({
-            showMe: !this.state.showMe
-        })
-     }
-
-    alcaldes () {
-        this.setState({
-            alcaldes: !this.state.alcaldes,
-            diputados: this.state.diputados,
-            presidente: this.state.presidente,
-        })
-    }
-
-    diputadosFM () {
-        this.setState({
-          diputadosFM: !this.state.diputadosFM
-        })
     }
 
   render () {
@@ -62,38 +22,23 @@ class Papeleta extends Component {
                         <h2 class="font-bold text-3xl mb-12">¡Cónoce tus opciones !</h2>
 
                         <button type="button" className= "xl bg-primary-vh hover:bg-primary-darker-vh rounded-md px-4 py-3 text-white mr-2" 
-                            onClick = { () => this.presidente()} >
+                             onClick={() => this.setState({ selected: 0 })} >
                             Presidente
                         </button>
                         <button type="button" className= "xl bg-primary-vh hover:bg-primary-darker-vh rounded-md px-4 py-3 text-white ml-2"  
-                            onClick = { () => this.alcaldes()}>     
+                          onClick={() => this.setState({ selected: 1 })} >
                             Alcaldes                          
                         </button>
                         <button type="button" className= "xl bg-primary-vh hover:bg-primary-darker-vh rounded-md px-4 py-3 text-white ml-2" 
-                            onClick = { () => this.diputados()}>
+                             onClick={() => this.setState({ selected: 2 })} >
                             Diputados
                         </button>                          
                     </div>
                 </div>
             </div>
-            {
-            !this.state.presidente?
-                <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
-                    <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
-                    <Presidente/>           
-                </section>
-            : null
-            }
-            {
-                !this.state.alcaldes?
-                    <Alcaldes/>     
-                : null
-            }    
-            {
-                !this.state.diputados?
-                    <Diputados/>
-                : null
-            }                       
+            {(this.selected === 0) && <Presidente/>}
+            {(this.selected === 1) && <Alcaldes/>}      
+            {(this.selected === 2) && <Diputados/>}          
     </section>   
       )
   }

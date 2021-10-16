@@ -9,6 +9,8 @@ import Educacion from "../../../svg/Educacion";
 
 const Presidente = () => {
   return (
+    <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
+       <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
     <section className = "presidente">
       <div className="features px-4 md:px-8">
         <div class="container mx-auto">
@@ -51,6 +53,7 @@ const Presidente = () => {
 
       </div>
 
+    </section>
     </section>
   
   )
