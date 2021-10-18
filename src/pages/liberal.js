@@ -9,7 +9,7 @@ import Seo from "../components/SEO";
 export default function Partidos() {
     return (
       <Layout>
-        <Seo  title="Partido Liberal" />
+        <Seo  title="Partido Liberal de Honduras" description = "Partido Liberal de Honduras" />
         <Hero/>
         <Historia/>
         <General/>

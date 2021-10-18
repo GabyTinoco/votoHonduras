@@ -10,7 +10,7 @@ function Partidos() {
 
     return ( 
       <Layout>
-          <Seo  title="Partido Nacional" />
+          <Seo  title="Partido Nacional de Honduras"  description = "Partido Nacional de Honduras" />
           <Hero/>
           <Historia/>
           <General/>

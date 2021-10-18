@@ -11,7 +11,7 @@ function Partidos() {
 
     return ( 
       <Layout>
-        <Seo  title="Partido Libertad y Refundación" />
+        <Seo  title="Partido Libertad y Refundación de Honduras"  description = "Partido Libertad y Refundación de Honduras" />
         <Hero/>
         <Historia/>
         <General/>

@@ -5,7 +5,7 @@ import Seo from "../components/SEO";
 
 const Index = () => (
   <Layout>
-    <Seo  title="Partidos Político de Honduras" />
+    <Seo  title="Partidos Político de Honduras" description = "Elecciones Generales 2021. Honduras tu voto cuenta" />
     <Partidos/>
   </Layout>
 );

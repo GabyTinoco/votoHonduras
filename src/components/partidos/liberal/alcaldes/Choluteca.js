@@ -44,131 +44,131 @@ const Choluteca = () => {
             >
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/APACILAGUA_ OSCAR CRISTIANO VARGAS.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/APACILAGUA_ ERNESTO MENDOZA BAQUEDANO.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Oscar Cristiano Vargas<em>Apacigualpa</em></p>
+                    <p>Ernesto Mendoza Baquedano<em>Apacigualpa</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/CHOLUTECA_ CRISTOBAL JOWANY RODRIGUEZ AMADOR.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/CHOLUTECA_ QUINTIN JAVIER SORIANO PEREZ.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Cristobal Jowany Rodriguez Amador<em>Choluteca</em></p>
+                    <p>Quintin Javier Soriano Pérez<em>Choluteca</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/CONCEPCION DE MARIA_ JUAN TEOFILO ESPINOZA PAZ.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/CONCEPCION DE MARIA_ CORDELIA AZUCENA MARTINEZ.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Juan Teófilo Espinoza Paz<em>Concepción de María</em></p>
+                    <p>María Cordelia Azucena Martínez<em>Concepción de María</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/DUYURE_ JOSE EDGARDO CORRALES ROJAS.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/DUYURE_ JORGE MANRIQUE PASTRANA.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>José Edgardo Corrales Rojas<em>Duyure</em></p>
+                    <p>Jorge Manrique Pastrana<em>Duyure</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/EL CORPUS_ RUBEN PEREZ GOMEZ.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/EL CORPUS_ ERICK BAUTISTA PERINO AGUILERA.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Rubén Pérez Gómez<em>El Corpus</em></p>
+                    <p>Erick Bautista Perino Aguilera <em>El Corpus</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/EL TRIUNFO_ BIKI ABIGAIL OVIEDO OSABAS.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/EL TRIUNFO_ CRISTHIAN JOSE CASTILLO MERCADO.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Biki Abigail Oviedo Osabas<em>El triunfo</em></p>
+                    <p>Cristhian José Castillo Mercado <em>El Triunfo</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/MARCOVIA_ RUBEN VICENTE ORTIZ.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/MARCOVIA_ JOSE NAHUN CALIX ALVAREZ.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Rubén Vicente Ortíz<em>Marcovia</em></p>
+                    <p>José Nahún Calíx Alvarez <em>Marcovia</em></p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/MOROLICA_ JUAN JOSE MARTINEZ MARTINEZ.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/MOROLICA_ CARLOS RENE MARTINEZ PALMA.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Juan José Martínez Martínez<em>Morolica</em></p>
+                    <p>Carlos René Martínez Palma <em>Morolica</em></p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/NAMASIGUE_ SAUL SANCHEZ DIAZ.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/NAMASIGUE_ DOUGLAS ORESTES VICENTE JARQUIN.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Saúl Sánchez Díaz<em>Namasigue</em></p>
+                    <p>Douglas Orestes Vicente Jarquín<em>Namasigue</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/OROCUINA_ CRUZ REINALDO ALVAREZ LAGOS.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/OROCUINA_ ROXNY RODIL HERRERA RIOS.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Cruz Reinaldo Alvarez Lagos<em>Orocuina</em></p>
+                    <p>Roxny Rodil Herrera Ríos <em>Orocuina</em></p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/PESPIRE_ ABEL ANTONIO CANALES ESPINAL.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/PESPIRE_ CARLOS HUMBERTO VILLATORO GARCIA.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Abel Antonio Canales Espinal<em>Pespire</em></p>
+                    <p>Carlos Humberto Villatoro García<em>Pespire</em></p>
                 </div> 
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN ANTONIO DE FLORES_ DANILO ARMANDO CHAVEZ AVILA.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN ANTONIO DE FLORES_ DARWIN BEJAMIN NUÑEZ DIAZ.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Danilo Armando Chávez Avila<em>San Antonio de Flores</em></p>
+                    <p>Darwin Bejamín Nuñez Díaz<em>San Antonio de Flores</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN ISIDRO_ JOSE AVIDAIL EUCEDA BORJAS.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN ISIDRO_ JOSE FRANCISCO CANALES VELASQUEZ.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>José Avidail Euceda Borjas<em>San Isidro</em></p>
+                    <p>José Francisco Canales Velasquez<em>San Isidro</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN JOSE_ IRIS JOHANA FUNES MEJIA.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN JOSE_ HERNAN ISIDRO ORTIZ REYES.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Iris Johana Funés Mejía<em>San José</em></p>
+                    <p>Hernán Isidro Ortíz Reyes<em>San José</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN MARCOS DE COLON_ ELMER YOVANNI PONCE.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SAN MARCOS DE COLON_ VILMA SUYAPA LAGOS ELVIR.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Elmer Yovanni Poncé<em>San Marcos de Colón</em></p>
+                    <p>Vilma Suyapa Lagos Elvir<em>San Marcos de Colón</em></p>
                 </div>
                 <div>
                     <StaticImage
-                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SANTA ANA DE YUSGUARE_ NERI FERNANDO REYES PINEDA.jpeg"
+                        src = "../../../../assets/partidos/liberal/alcaldes/choluteca/SANTA ANA DE YUSGUAREN_ EDAS MAURICIO TURCIOS SERVELLON.jpeg"
                         width = {500}
                         alt= "Voto Honduras Alcaldes Partido Libertad Choluteca"
                     />
-                    <p>Ruben Antonio Najar Aguilera <em>Santa Ana de Yusguare </em></p>
+                    <p>Edas Mauricio Turcios Servellón <em>Santa Ana de Yusguare </em></p>
                 </div>         
             </Carousel>   
         </section>

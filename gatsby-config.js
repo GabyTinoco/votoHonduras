@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Voto Honduras`,
-    description: ``,
+    description: `Es un portal Open Source fundado por Control Hub Space cuya misión es brindarle a la ciudadanía datos transparentes, sobre procesos electorales en Honduras. 
+    Usamos un conjunto de herramientas que permiten crear proyecciones y análisis a profundidad en temas electorales en Honduras.`,
     author: `Gaby Tinococo`,
     image: "/src/img/vote_honduras.png"
   },
