@@ -78,21 +78,58 @@ class Papeleta extends Component {
             </div>
             {
             !this.state.presidente?
-                <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
-                    <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
-                    <Presidente/>           
-                </section>
+            <section>
+                <div style={{ display: 'block' }}>
+                    <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
+                        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
+                        <Presidente/>           
+                    </section>
+                </div>
+                <div style = {{display: 'none'}}>
+                    <Alcaldes/>
+                </div>
+                <div style = {{display: 'none'}}>
+                    <Diputados/>
+                </div>
+            </section>
             : null
             }
             {
-                !this.state.alcaldes?
-                    <Alcaldes/>     
-                : null
-            }    
-            {
-                !this.state.diputados?
+            !this.state.alcaldes?
+            <section>
+                <div style={{ display: 'none' }}>
+                    <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
+                        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
+                        <Presidente/>           
+                    </section>
+                </div>
+                <div style = {{display: 'block'}}>
+                    <Alcaldes/>
+                </div>
+                <div style = {{display: 'none'}}>
                     <Diputados/>
-                : null
+                </div>
+             </section> 
+                
+             : null
+            }    
+            {!this.state.diputados?
+                <section>
+                    <div style={{ display: 'none' }}>
+                        <section class="container py-16 md:py-20 mx-auto" id="diputadosLiberal">
+                            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Candidato Presidencial</h1>
+                            <Presidente/>           
+                        </section>
+                    </div>
+                    <div style = {{display: 'none'}}>
+                        <Alcaldes/>
+                    </div>
+                    <div style = {{display: 'block'}}>
+                        <Diputados/>
+                    </div>
+                </section>
+                
+            : null
             }                       
     </section>   
       )
