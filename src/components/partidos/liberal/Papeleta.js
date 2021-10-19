@@ -10,20 +10,7 @@ class Papeleta extends Component {
                 <div class="w-full h-screen bg-opacity-50 bg-black flex justify-center items-center">
                     <div class="mx-4 text-center text-white">
                         <h1 class="font-bold text-6xl mb-4">Candidatos elecciones 2021</h1>
-                        <h2 class="font-bold text-3xl mb-12">¡Cónoce tus opciones !</h2>
-
-                        <button type="button" className= "xl bg-primary-vh hover:bg-primary-darker-vh rounded-md px-4 py-3 text-white mr-2" id="presidente"
-                            >
-                            Presidente
-                        </button>
-                        <button type="button" className= "xl bg-primary-vh hover:bg-primary-darker-vh rounded-md px-4 py-3 text-white ml-2" id = "alcaldes" 
-                            >     
-                            Alcaldes                          
-                        </button>
-                        <button type="button" className= "xl bg-primary-vh hover:bg-primary-darker-vh rounded-md px-4 py-3 text-white ml-2" id = "diputados"
-                           >
-                            Diputados
-                        </button>                          
+                        <h2 class="font-bold text-3xl mb-12">¡Cónoce tus opciones !</h2>               
                     </div>
                 </div>
             </div>

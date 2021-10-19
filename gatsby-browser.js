@@ -7,59 +7,22 @@ export const onInitialClientRender = () => {
    $(document).ready(function () {
 
     /*Papeleta */
-      $('.presidente').hide();
-      $('.alcaldes').hide();
-      $('.diputados').hide();
-      $('.cortes').hide();
-      $('.fm').hide();
-      $('.atlantida').hide();
-      $('.choluteca').hide();
 
       $('#presidente').on("click", function() {
-          $('.presidente').show();
+          $('.presidente').toggle();
           $('.alcaldes').hide();
           $('.diputados').hide();
       });
       $('#alcaldes').on("click", function() {
           $('.presidente').hide();
-          $('.alcaldes').show();
+          $('.alcaldes').toggle();
           $('.diputados').hide();
       });
       $('#diputados').on("click", function() {
           $('.presidente').hide();
           $('.alcaldes').hide();
-          $('.diputados').show();
+          $('.diputados').toggle();
       });
-
-    /**Diputados*/
-    $('#cortes').on("click", function() {
-        $('.cortes').show();
-        $('.fm').hide();
-        $('.atlantida').hide();
-        $('.choluteca').hide();
-    });
-
-    $('#fm').on("click", function() {
-        $('.cortes').hide();
-        $('.fm').show();
-        $('.atlantida').hide();
-        $('.choluteca').hide();
-    });
-
-    $('#atlantida').on("click", function() {
-        $('.cortes').hide();
-        $('.fm').hide();
-        $('.atlantida').show();
-        $('.choluteca').hide();
-    });
-
-    $('#choluteca').on("click", function() {
-        $('.cortes').hide();
-        $('.fm').hide();
-        $('.atlantida').hide();
-        $('.choluteca').show();
-    });
-
    
   });
 }
